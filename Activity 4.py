@@ -7,7 +7,7 @@ def adding_names_to_party():
     
     print (list)
 
-    flag = true 
+    flag = True 
     while flag:
         user_input = input("Do you want to invite someone eles to the party?").upper()
         
@@ -19,3 +19,8 @@ def adding_names_to_party():
         else:
             print("Invalid input")
             continue
+        print("The people invited to the party are:", list)
+
+    print("The people invited to the party are:", list)
+    
+adding_names_to_party()
